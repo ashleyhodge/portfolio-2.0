@@ -1,17 +1,13 @@
 :root {
   font-family: 'Montserrat', sans-serif;
-}
-.name {
-  background-color: #985e6d;
-  text-align: center;
-  margin: 10px;
-  color: white;
+  background-color: #192231;
 }
 h1 {
+  color: #985e6d;
+  font-size: 50px;
   font-family: 'Satisfy', cursive;
-  padding: 10px;
 }
-ul {
-  list-style: none;
-  
+p {
+  color: #98878f;
+  font-size: 25px;
 }

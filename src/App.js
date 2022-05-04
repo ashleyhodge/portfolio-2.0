@@ -5,9 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
+    <header className='px-5'>
       <Nav></Nav>
-    </div>
+    </header>
   );
 }
 
