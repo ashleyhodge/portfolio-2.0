@@ -7,16 +7,19 @@
   color: #985e6d;
   font-size: 60px;
   font-family: 'Satisfy', cursive;
-  font-weight:900;
 }
 .nav {
   color: #98878f;
   font-size: 25px;
 }
+.nav4 {
+  font-size: 25px;
+  color: #494e6b;
+}
 /* Masthead */
 header {
   background-color: #192231;
-  color: #985e6d;
+  color: #98878f;
 }
 header.masthead {
   padding-top: 300px;
@@ -32,7 +35,7 @@ header.masthead {
 }
 .masthead-btn {
   color: #192231;
-  background-color:#494e6b;
+  background-color:#985e6d;
   margin-left: 400px;
   margin-right: 400px;
   font-size: 25px;

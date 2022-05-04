@@ -18,12 +18,17 @@ function Nav() {
             </li>
             <li className="nav-item">
               <a className="nav-link link-light" href="#about-me">
-                <p className="nav">About Me</p>
+                <p className="nav">About</p>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link link-light" href="#contact-me">
-                <p className="nav">Contact Me</p>
+                <p className="nav">Contact</p>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link link-light" href="#contact-me">
+                <p className="nav4">Resume</p>
               </a>
             </li>
           </ul>
