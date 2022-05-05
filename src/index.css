@@ -46,3 +46,13 @@ header.masthead {
 a:link {
   text-decoration: none;
 }
+/* Footer */
+footer {
+  background-color: #192231;
+  color: #985e6d;
+  font-size: 20px;
+}
+.change {
+  color: #98878f;
+  font-size: 25px;
+}
