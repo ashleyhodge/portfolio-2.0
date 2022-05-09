@@ -20,11 +20,13 @@
 header {
   background-color: #192231;
   color: #98878f;
+  
 }
 header.masthead {
   padding-top: 300px;
   padding-bottom: 300px;
   text-align: center;
+  
   /* background-attachment: scroll;
   background-position: center center;
   background-size: cover; */
@@ -32,6 +34,7 @@ header.masthead {
 .masthead-subheading {
   font-size: 50px;
   font-family: 'Satisfy', cursive;
+
 }
 .masthead-btn {
   color: #192231;
@@ -39,12 +42,20 @@ header.masthead {
   margin-left: 400px;
   margin-right: 400px;
   font-size: 25px;
-  border: none;
-  
+}
+.masthead-body {
+  color: #985e6d;
+  border: #494e6b solid 5px;
+  padding: 5px;
+  margin-left: 500px;
+  margin-right: 500px;
   
 }
 a:link {
   text-decoration: none;
+}
+.masthead-body:hover {
+  border:#98878f solid 5px;
 }
 /* Footer */
 footer {
@@ -59,3 +70,23 @@ footer {
 .copy {
   font-size: 15px;
 }
+/* Portfolio */
+#portfolio {
+  background-color: #192231;
+}
+.box {
+  background-color:#494e6b;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: #494e6b solid 15px;
+}
+.title{
+  font-family: 'Satisfy', cursive;
+  color: #985e6d;
+}
+.description {
+  color: #98878f;
+  font-weight:300;
+  font-size: 18px;
+}
+

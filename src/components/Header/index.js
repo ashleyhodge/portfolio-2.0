@@ -5,7 +5,9 @@ function Header() {
     <header className="masthead">
       <div className="container">
         <div className="masthead-subheading">Welcome!</div>
-          <button className="masthead-btn">Take a look!</button>
+          <a href="#portfolio" className="masthead-btn">
+            <p className="masthead-body">Take a look!</p>
+          </a>
       </div>
     </header>
   )
