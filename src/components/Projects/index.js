@@ -14,11 +14,14 @@ function Projects() {
   ];
   const renderCard = (card, i) => {
     return(
-      <Card style={{ width: 'auto'}} key={i} className="box">
-      <Card.Img variant="top" className="img-fluid" src={require(`../Portfolio/project-images/${i}.jpg`)}  />
+      <Card className="col-lg-4 col-sm-6 mb-4 box" key={i}>
+      <div className="portfolio-hover">
+        <div><i class="fas fa-plus fa-3x"></i></div>
+      </div>
+      <Card.Img variant="top" className="img-fluid img" src={require(`../Portfolio/project-images/${i}.jpg`)} />
         <Card.Body>
-          <Card.Title>{card.name}</Card.Title>
-          <Card.Text>
+          <Card.Title className="text-center">{card.name}</Card.Title>
+          <Card.Text className="text-center">
             {card.description}
           </Card.Text>
         </Card.Body>

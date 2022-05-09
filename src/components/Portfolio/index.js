@@ -2,7 +2,7 @@ import React from "react";
 import Projects from "../Projects";
 
 
-function Portfolio(currentProject) {
+function Portfolio() {
   return (
     <section className="page-section" id="portfolio">
       <div className="box">

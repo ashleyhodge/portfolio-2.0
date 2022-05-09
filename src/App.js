@@ -15,7 +15,7 @@ function App() {
         <Header></Header>
         <Portfolio></Portfolio>
         <Footer></Footer>
-      </main>
+      </main> 
     </div>
   );
 }
