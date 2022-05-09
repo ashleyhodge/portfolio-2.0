@@ -21,9 +21,6 @@ function Projects() {
       <Card.Img variant="top" className="img-fluid img" src={require(`../Portfolio/project-images/${i}.jpg`)} />
         <Card.Body>
           <Card.Title className="text-center">{card.name}</Card.Title>
-          <Card.Text className="text-center">
-            {card.description}
-          </Card.Text>
         </Card.Body>
     </Card>
     )
