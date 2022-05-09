@@ -7,12 +7,15 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 
 function App() {
+
   return (
     <div>
-      <Header></Header>
       <Nav></Nav>
-      <Portfolio></Portfolio>
-      <Footer></Footer>
+      <main>
+        <Header></Header>
+        <Portfolio></Portfolio>
+        <Footer></Footer>
+      </main>
     </div>
   );
 }
