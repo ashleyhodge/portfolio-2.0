@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {Card} from "react-bootstrap"
+import Modal from "../Modal1";
 
 function Projects() {
   const projects = [
@@ -12,11 +13,19 @@ function Projects() {
       description: "Sour Screens is a fun application that allows users to search for an actor and receive a list of movies they've starred in starting with the lowest rated. Although this application has no practical use, it can lead to some interesting discoveries."
     }
   ];
+  const [showModal, setShowModal] = useState(false)
+
+  const openModal = (i) => {
+    setShowModal(prev => !prev)
+  }
   const renderCard = (card, i) => {
     return(
-      <Card className="col-lg-4 col-sm-6 mb-4 box" key={i}>
+      <Card   className="col-lg-4 col-sm-6 mb-4 box" key={i}>
       <div className="portfolio-hover">
-        <div><i class="fas fa-plus fa-3x"></i></div>
+        <div onClick={openModal}>
+          <i className="fas fa-plus fa-3x"></i>
+          <Modal showModal={showModal} setShowModal={setShowModal}></Modal>
+          </div>
       </div>
       <Card.Img variant="top" className="img-fluid img" src={require(`../Portfolio/project-images/${i}.jpg`)} />
         <Card.Body>
