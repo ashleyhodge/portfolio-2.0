@@ -91,6 +91,7 @@ footer {
   color: #98878f;
   font-weight:300;
   font-size: 18px;
+  padding-bottom: 20px;
 }
 .grid {
   display: flex;
@@ -110,4 +111,23 @@ footer {
   position: absolute;
   bottom: 12px;
   right: 12px;
+}
+/* About */
+#about-me {
+  background-color: #192231;
+}
+.about-con {
+  background-color: #985e6d;
+  padding-top: 15px;
+}
+.about-box {
+  background-color:#985e6d;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: #192231 solid 25px;
+  border-top: #192231 solid 25px;
+}
+.about-title {
+  font-family: 'Satisfy', cursive;
+  color: #494e6b;
 }
