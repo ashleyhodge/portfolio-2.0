@@ -81,7 +81,8 @@ footer {
   background-color:#494e6b;
   margin-left: 100px;
   margin-right: 100px;
-  border: #494e6b solid 15px;
+  border-top: #494e6b solid 15px;
+  border-bottom: #192231 solid 7pc;
 }
 .title{
   font-family: 'Satisfy', cursive;
@@ -125,9 +126,10 @@ footer {
   margin-left: 100px;
   margin-right: 100px;
   border-bottom: #192231 solid 25px;
-  border-top: #192231 solid 25px;
+  
 }
 .about-title {
   font-family: 'Satisfy', cursive;
   color: #494e6b;
+  
 }
