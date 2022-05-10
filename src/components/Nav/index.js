@@ -6,7 +6,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-sm fixed-top">
       <div className="container">
-        <a className="navbar-brand link-light" href="/">
+        <a className="navbar-brand" href="/">
           <h1 className="name">Ashley Hodge</h1>
         </a>
         <div>

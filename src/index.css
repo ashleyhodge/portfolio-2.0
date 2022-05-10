@@ -2,18 +2,25 @@
   font-family: 'Montserrat', sans-serif;
   background-color: #192231;
 }
+html {
+  scroll-padding-top: 120px;
+}
 /* Navigation */
+.navbar {
+  background-color: #192231;
+}
 .name {
   color: #985e6d;
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Satisfy', cursive;
 }
 .nav {
   color: #98878f;
-  font-size: 25px;
+  font-size: 20px;
+  
 }
 .nav4 {
-  font-size: 25px;
+  font-size: 20px;
   color: #494e6b;
 }
 /* Masthead */
@@ -26,10 +33,6 @@ header.masthead {
   padding-top: 300px;
   padding-bottom: 300px;
   text-align: center;
-  
-  /* background-attachment: scroll;
-  background-position: center center;
-  background-size: cover; */
 }
 .masthead-subheading {
   font-size: 50px;
@@ -89,4 +92,22 @@ footer {
   font-weight:300;
   font-size: 18px;
 }
-
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  position: relative;
+}
+.img{
+  display: block;
+}
+.plus {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}

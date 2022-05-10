@@ -8,13 +8,16 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 
 function App() {
+
   return (
     <div>
-      <Header></Header>
       <Nav></Nav>
-      <Portfolio></Portfolio>
-      <About></About>
-      <Footer></Footer>
+      <main>
+        <Header></Header>
+        <Portfolio></Portfolio>
+        <About></About>
+        <Footer></Footer>
+      </main> 
     </div>
   );
 }
