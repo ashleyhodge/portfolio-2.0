@@ -13,11 +13,6 @@ function Projects() {
       name: 'Sour Screens',
       link: 'https://d1sl.github.io/symmetrical-robot/',
       description: "Sour Screens is a fun application that allows users to search for an actor and receive a list of movies they've starred in starting with the lowest rated. Although this application has no practical use, it can lead to some interesting discoveries.",
-    },
-    {
-      name: 'Crime Watchers',
-      github: 'anime-crime-watchers',
-      description: 'TBD'
     }
   ];
   const renderCard = (card, i) => {

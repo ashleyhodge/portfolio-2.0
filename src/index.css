@@ -132,3 +132,22 @@ footer {
   font-family: 'Satisfy', cursive;
   color: #494e6b;
 }
+/* Contact */
+#contact-me {
+  background-color: #192231;
+  
+}
+
+.contact-con {
+  border: #494e6b solid 4px;
+  padding: 10px;
+}
+.section-heading {
+  color: #985e6d;
+}
+.error-text {
+  color: #985e6d;
+}
+label{
+  color: #985e6d;
+}
