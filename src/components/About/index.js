@@ -44,17 +44,6 @@ function About() {
                             <div className="timeline-body"><p>After spending years going down the path to be a full time healthcare worker, I realized that it wasn't my calling. I wanted something new and challenging. I've always had a passion for technology, but never thought I could succeed in the field. But, due to my past experiences, I've grown more confident in myself and I now believe the old saying that 'you can do anything you set your mind to!' </p></div>
                         </div>
                     </li>
-                    <li className="timeline-inverted">
-                        <div className="timeline-image">
-                            <p>
-                              Hopefully
-                              <br></br>
-                              I'll have more to share soon!
-                              <br></br>
-                              Stay tuned!
-                            </p>
-                        </div>
-                    </li>
                 </ul>
           </div>
         </div>
