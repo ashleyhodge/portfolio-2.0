@@ -3,11 +3,12 @@ import React from "react";
 function Header() {
   return (
     <header className="masthead">
-      <div className="container">
-        <div className="masthead-subheading">Welcome!</div>
-          <a href="#portfolio" className="masthead-btn">
+      <div  className="container">
+        <a href="#portfolio">
+          <div>
+            <p className="masthead-subheading">Welcome!</p>
             <p className="masthead-body">Take a look!</p>
-          </a>
+          </div></a>
       </div>
     </header>
   )

@@ -37,7 +37,7 @@ header.masthead {
 .masthead-subheading {
   font-size: 50px;
   font-family: 'Satisfy', cursive;
-
+  color: #98878f;
 }
 .masthead-btn {
   color: #192231;
@@ -48,17 +48,14 @@ header.masthead {
 }
 .masthead-body {
   color: #985e6d;
-  border: #494e6b solid 5px;
-  padding: 5px;
-  margin-left: 500px;
-  margin-right: 500px;
-  
+  font-size: 25px;
 }
+
 a:link {
   text-decoration: none;
 }
 .masthead-body:hover {
-  border:#98878f solid 5px;
+  font-weight: bolder;
 }
 /* Footer */
 footer {
