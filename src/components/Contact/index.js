@@ -56,7 +56,7 @@ function ContactForm() {
               </div>
               <div className="col-md-6">
                 <label htmlFor="message">Message:</label>
-                <textarea className="form-control" id="message" defaultValue={message} placeholder="Your Message *" onBlur={handleChange}></textarea>
+                <textarea className="form-control" id="message" defaultValue={message} onBlur={handleChange}></textarea>
               </div>
             </div>
           <div className="text-center"><button className="btn btn-primary btn-xl" id="submitButton" type="submit">Send Message</button></div>
