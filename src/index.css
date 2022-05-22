@@ -1,7 +1,9 @@
+
+/* Background animation */
 body {
-  background: -moz-linear-gradient(45deg, #03708e 0%, #000000 29%, #6201b7 66%, #a40019 100%);
-  background: -webkit-linear-gradient(45deg, #03708e 0%,#000000 29%,#8911f2 66%,#da0626 100%);
-  background: linear-gradient(45deg, #03708e 0%,#000000 29%,#8911f2 66%,#da0626 100%);
+  background: -moz-linear-gradient(45deg, #1a01bc 0%, #000000 29%, #250045 66%, #1a01bc 100%);
+  background: -webkit-linear-gradient(45deg, #1a01bc 0%,#000000 29%,#250045 66%,#1a01bc 100%);
+  background: linear-gradient(45deg, #1a01bc 0%,#000000 29%,#250045 66%,#1a01bc 100%);
   background-size: 400% 400%;
   -webkit-animation: Gradient 45s ease infinite;
 -moz-animation: Gradient 45s ease infinite;
@@ -106,3 +108,26 @@ to {
 .st13{opacity:0.2;}
 .st14{clip-path:url(#SVGID_16_);}
 .st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+/* End of background animation */
+
+* {
+  color: white;
+}
+h1 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+  letter-spacing: -2px;
+  text-align: center;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+}
+
+h1:after {
+  display: block;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Poiret One', sans-serif;
+  font-size: .4em;
+  text-align: center;
+}
