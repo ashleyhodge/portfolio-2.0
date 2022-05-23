@@ -22,14 +22,14 @@ function Projects() {
     const handleShow = () => setShow(true);
     return(
     <div className="col-lg-4 col-sm-6 mb-4 box" style={{width: '20rem'}} border="secondary" id={i} key={i} >
-        <img variant="top" className="img-fluid img" onClick={handleShow} src={require(`../Portfolio/project-images/${i}.jpg`)} />
+        <img variant="top" className="img-fluid project-img" onClick={handleShow} src={require(`../Portfolio/project-images/${i}.jpg`)} />
         <div className="container">
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title className="text-center" style={{color: '#000000'}} >{card.name}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-          <img variant="top" className="img-fluid img" src={require(`../Portfolio/project-images/${i}.jpg`)} />
+          <img variant="top" className="img-fluid" src={require(`../Portfolio/project-gifs/${i}.gif`)} />
           <div style={{color: '#000000'}}>
                 {card.description}
                 <a className="plus" href={card.link} target="_blank"><i className="fas fa-plus fa-2x"></i></a>
@@ -45,15 +45,6 @@ function Projects() {
           </Modal.Footer>
         </Modal>
         </div>
-        {/* <div className="container">
-          <div>
-              <div className="text-center">{card.name}</div>
-              <div>
-                {card.description}
-                <a className="plus" href={card.link} target="_blank"><i className="fas fa-plus fa-2x"></i></a>
-              </div>
-          </div>
-        </div> */}
       </div>
     )
   }
