@@ -6,9 +6,9 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-sm fixed-top">
       <div className="container">
-        <Link to="/">
+        {/* <Link to="/" style={{textDecoration: 'none'}}>
           <h1 className="name">Ashley Hodge</h1>
-        </Link>
+        </Link> */}
         <div>
           <ul className="navbar-nav py-4">
             <li className="nav-item">
@@ -28,7 +28,7 @@ function Nav() {
             </li>
             <li className="nav-item">
               <a className="nav-link link-light">
-                <p className="nav4">Resume</p>
+                <p className="nav">Resume</p>
               </a>
             </li>
           </ul>

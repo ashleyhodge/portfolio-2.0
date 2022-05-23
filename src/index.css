@@ -4,7 +4,7 @@ body {
   background: -moz-linear-gradient(45deg, #1a01bc 0%, #000000 29%, #250045 66%, #1a01bc 100%);
   background: -webkit-linear-gradient(45deg, #1a01bc 0%,#000000 29%,#250045 66%,#1a01bc 100%);
   background: linear-gradient(45deg, #1a01bc 0%,#000000 29%,#250045 66%,#1a01bc 100%);
-  background-size: 130% 600%;
+  background-size: 100% 50%;
   -webkit-animation: Gradient 45s ease infinite;
 -moz-animation: Gradient 45s ease infinite;
 
@@ -159,10 +159,25 @@ footer {
   display: flex;
 }
 .hero-img {
-  
-position: absolute;
-max-width: 100%;
-left: 1061px;
-top: 263px;
-
+  border-radius: 20%;
+  box-shadow: 5px 4px 29px 8px rgba(0, 0, 0, 0.42);
+  position: absolute;
+  max-width: 100%;
+  left: 1061px;
+  top: 263px;
 }
+
+/* Nav bar */
+.name {
+  font-size: 62px;
+}
+.nav {
+  font-size: 25px;
+}
+.nav:hover {
+  border-bottom: #fff solid 2px;
+  padding: 1px;
+}
+
+/* Portfolio page */
+
