@@ -1,5 +1,5 @@
-import React from "react";
-import {Card, Accordion} from "react-bootstrap"
+import React, { useState } from "react";
+import { Modal, Button } from "react-bootstrap"
 
 
 function Projects() {
@@ -15,26 +15,50 @@ function Projects() {
       description: "Sour Screens is a fun application that allows users to search for an actor and receive a list of movies they've starred in starting with the lowest rated. Although this application has no practical use, it can lead to some interesting discoveries.",
     }
   ];
-  const renderCard = (card, i) => {
+  const RenderCard = (card, i) => {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return(
-    <Card className="col-lg-4 col-sm-6 mb-4 box" style={{width: '20rem'}} border="secondary" id={i} key={i} >
-        <Card.Img variant="top" className="img-fluid img "  src={require(`../Portfolio/project-images/${i}.jpg`)} />
-        <Card.Body>
-          <Accordion className="accordion" flush>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header className="text-center card-title">{card.name}</Accordion.Header>
-              <Accordion.Body>
+    <div className="col-lg-4 col-sm-6 mb-4 box" style={{width: '20rem'}} border="secondary" id={i} key={i} >
+        <img variant="top" className="img-fluid img" onClick={handleShow} src={require(`../Portfolio/project-images/${i}.jpg`)} />
+        <div className="container">
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title className="text-center" style={{color: '#000000'}} >{card.name}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+          <img variant="top" className="img-fluid img" src={require(`../Portfolio/project-images/${i}.jpg`)} />
+          <div style={{color: '#000000'}}>
                 {card.description}
                 <a className="plus" href={card.link} target="_blank"><i className="fas fa-plus fa-2x"></i></a>
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        </Card.Body>
-      </Card>
+          </div>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+            <Button variant="primary" onClick={handleClose}>
+              Save Changes
+            </Button>
+          </Modal.Footer>
+        </Modal>
+        </div>
+        {/* <div className="container">
+          <div>
+              <div className="text-center">{card.name}</div>
+              <div>
+                {card.description}
+                <a className="plus" href={card.link} target="_blank"><i className="fas fa-plus fa-2x"></i></a>
+              </div>
+          </div>
+        </div> */}
+      </div>
     )
   }
   return(
-    <div className="grid">{projects.map(renderCard)}</div>
+    <div className="grid">{projects.map(RenderCard)}</div>
   )
 }
 
