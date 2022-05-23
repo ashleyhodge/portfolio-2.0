@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
+import profile from "../Header/profile.png"
+
 function Header() {
   return (
-    <header className="masthead">
+    <header>
       <div  className="container">
-          <div>
-            <p className="masthead-subheading">Welcome!</p>
-            <Link to="/portfolio">
-              <p className="masthead-body">Take a look!</p>
-            </Link>
-          </div>
+            <p className="hero-heading flex">Welcome.<br></br> My name is Ashley. <br></br> I'm a Full Stack Developer</p>
+            <p></p>
+              <img className =" hero-img img-fluid" src={profile}></img>
       </div>
     </header>
   )

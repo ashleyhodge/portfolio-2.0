@@ -16,24 +16,28 @@ function App() {
     <Router>
       <div>
         <Nav></Nav>
-        <Header></Header>
+        
         <main>
           <Routes>
-              <Route 
-                path="/portfolio"
-                element={<Portfolio />}
-              />
-              <Route
-                path="/about"
-                element={<About />}
-              />
-              <Route
-                path="/contact-me"
-                element={<ContactForm />}
-              />
+            <Route
+              path='/'
+              element={<Header />}
+            />
+            <Route 
+              path="/portfolio"
+              element={<Portfolio />}
+            />
+            <Route
+              path="/about"
+              element={<About />}
+            />
+            <Route
+              path="/contact-me"
+              element={<ContactForm />}
+            />
           </Routes>
-        <Footer></Footer>
         </main> 
+        <Footer></Footer>
       </div>
     </Router>
     </section>

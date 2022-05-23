@@ -17,17 +17,17 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link link-light" href="#about-me">
+              <Link to="/about" className="nav-link link-light">
                 <p className="nav">About</p>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact-me" className="nav-link link-light" href="#contact-me">
+              <Link to="/contact-me" className="nav-link link-light">
                 <p className="nav">Contact</p>
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link link-light" href="#contact-me">
+              <a className="nav-link link-light">
                 <p className="nav4">Resume</p>
               </a>
             </li>
