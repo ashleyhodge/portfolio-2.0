@@ -59,7 +59,7 @@ function ContactForm() {
                 <textarea className="form-control" id="message" defaultValue={message} onBlur={handleChange}></textarea>
               </div>
             </div>
-          <div className="text-center"><button className="btn btn-primary btn-xl" id="submitButton" type="submit">Send Message</button></div>
+          <div className="text-center"><button className="btn" id="submitButton" type="submit"><p className="btn-text">Send Message</p></button></div>
         </form>
       </div>
     </div>

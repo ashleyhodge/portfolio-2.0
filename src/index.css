@@ -39,11 +39,6 @@ body {
 	}
 }
 
-body::-webkit-scrollbar {
-  display: none
-}
-
-
 @-webkit-keyframes Gradient {
 0% {
   background-position: 0 50%
@@ -142,6 +137,7 @@ footer {
     right: 0px;
     margin-top: 50px;
     margin-bottom: 0px;
+    display: flex;
 }
 
 /* Hero */
@@ -177,7 +173,7 @@ footer {
 
 /* Portfolio page */
 #portfolio {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 .description {
   margin-top: 20px;
@@ -193,9 +189,19 @@ footer {
   background-color: rgba(0,0,0,.7);
   color: #fff;
 }
+/* about */
+#about-me {
+  margin: 80px;
+}
 
-
-
-
-
-
+/* Contact */
+#contact-me {
+  margin: 150px;
+}
+.btn-text {
+  padding: 10px;
+}
+.btn-text:hover {
+  border: white solid 2px;
+  padding: 10px
+}

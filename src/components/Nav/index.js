@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import logo from "../Nav/logo.png"
 
 
 function Nav() {
   return (
     <nav className="navbar navbar-expand-sm fixed-top">
       <div className="container">
-        {/* <Link to="/" style={{textDecoration: 'none'}}>
-          <h1 className="name">Ashley Hodge</h1>
-        </Link> */}
+        <Link to="/" style={{textDecoration: 'none'}}>
+          <img src={logo}></img>
+        </Link>
         <div>
           <ul className="navbar-nav py-4">
             <li className="nav-item">

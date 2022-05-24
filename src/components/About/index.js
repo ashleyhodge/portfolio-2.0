@@ -34,7 +34,7 @@ function About() {
                             <div className="timeline-body"><p>While I love my hometown, I felt like it was the perfect time to find out who I could be in a new environment. I served as a youth substance abuse prevention specialist in a small town called Sidney, Montana. While I was there, I led coalition meeting, helped with grant writing, and met with youth in the community about ways to prevent teens from turning towards drugs and alcohol. This small town will always have a place in my heart!</p></div>
                         </div>
                     </li>
-                    <li className="timeline-inverted">
+                    <li className="timeline-inverted md-4">
                         <div className="timeline-image"><img className="rounded-circle img-fluid " src={boot_camp} alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
