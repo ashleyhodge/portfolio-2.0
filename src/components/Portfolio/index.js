@@ -12,7 +12,7 @@ function Portfolio() {
             <h4 className="description">This consists of projects that I have completed, as well as projects that I will continue to work on!</h4>
           </div>
         </div>
-        <Projects className="row"></Projects>
+        <Projects ></Projects>
       </div>
     </section>
   )
