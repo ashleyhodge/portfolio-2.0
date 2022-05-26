@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-2.0/static/css/main.a8b368a6.css",
-    "main.js": "/portfolio-2.0/static/js/main.18cb8881.js",
+    "main.css": "/portfolio-2.0/static/css/main.56f8331c.css",
+    "main.js": "/portfolio-2.0/static/js/main.2847f76c.js",
     "static/js/787.b597a222.chunk.js": "/portfolio-2.0/static/js/787.b597a222.chunk.js",
-    "static/media/1.jpg": "/portfolio-2.0/static/media/1.72ac7a731ef513092a38.jpg",
-    "static/media/0.jpg": "/portfolio-2.0/static/media/0.06de52949d63209c097e.jpg",
+    "static/media/0.gif": "/portfolio-2.0/static/media/0.eeeb9fa74c30c7095f7f.gif",
+    "static/media/1.gif": "/portfolio-2.0/static/media/1.e948bd2d127de4a2cd68.gif",
+    "static/media/profile.png": "/portfolio-2.0/static/media/profile.0c784ed7c15ceb00bc91.png",
+    "static/media/1.jpg": "/portfolio-2.0/static/media/1.800b32ffa1468b3e4711.jpg",
     "static/media/americorps.jpg": "/portfolio-2.0/static/media/americorps.b8c0b8890ce7d411126e.jpg",
+    "static/media/0.jpg": "/portfolio-2.0/static/media/0.9fb57fd1b2a543e35886.jpg",
     "static/media/school.jpg": "/portfolio-2.0/static/media/school.28a46ec0c9450e6f5fd9.jpg",
     "static/media/boot_camp.jpg": "/portfolio-2.0/static/media/boot_camp.62523f0ebce55eef0f61.jpg",
     "index.html": "/portfolio-2.0/index.html",
-    "main.a8b368a6.css.map": "/portfolio-2.0/static/css/main.a8b368a6.css.map",
-    "main.18cb8881.js.map": "/portfolio-2.0/static/js/main.18cb8881.js.map",
+    "main.56f8331c.css.map": "/portfolio-2.0/static/css/main.56f8331c.css.map",
+    "main.2847f76c.js.map": "/portfolio-2.0/static/js/main.2847f76c.js.map",
     "787.b597a222.chunk.js.map": "/portfolio-2.0/static/js/787.b597a222.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b368a6.css",
-    "static/js/main.18cb8881.js"
+    "static/css/main.56f8331c.css",
+    "static/js/main.2847f76c.js"
   ]
 }
