@@ -16,7 +16,6 @@ function App() {
     <Router>
       <div>
         <Nav></Nav>
-        
         <main>
           <Routes>
             <Route
