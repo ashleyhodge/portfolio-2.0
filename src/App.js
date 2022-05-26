@@ -19,7 +19,7 @@ function App() {
         <main>
           <Routes>
             <Route
-              path='/portfolio-2.0'
+              path='/'
               element={<Header />}
             />
             <Route 
