@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.56f8331c.css",
-    "main.js": "/static/js/main.798d2317.js",
-    "static/js/787.b597a222.chunk.js": "/static/js/787.b597a222.chunk.js",
-    "static/media/2.gif": "/static/media/2.914c41ad8aed4197c66e.gif",
-    "static/media/0.gif": "/static/media/0.eeeb9fa74c30c7095f7f.gif",
-    "static/media/1.gif": "/static/media/1.e948bd2d127de4a2cd68.gif",
-    "static/media/profile.png": "/static/media/profile.0c784ed7c15ceb00bc91.png",
-    "static/media/1.jpg": "/static/media/1.800b32ffa1468b3e4711.jpg",
-    "static/media/americorps.jpg": "/static/media/americorps.b8c0b8890ce7d411126e.jpg",
-    "static/media/0.jpg": "/static/media/0.9fb57fd1b2a543e35886.jpg",
-    "static/media/school.jpg": "/static/media/school.28a46ec0c9450e6f5fd9.jpg",
-    "static/media/boot_camp.jpg": "/static/media/boot_camp.62523f0ebce55eef0f61.jpg",
-    "static/media/2.jpg": "/static/media/2.01b6f154259605ff50a6.jpg",
-    "index.html": "/index.html",
-    "main.56f8331c.css.map": "/static/css/main.56f8331c.css.map",
-    "main.798d2317.js.map": "/static/js/main.798d2317.js.map",
-    "787.b597a222.chunk.js.map": "/static/js/787.b597a222.chunk.js.map"
+    "main.css": "/portfolio-2.0/static/css/main.56f8331c.css",
+    "main.js": "/portfolio-2.0/static/js/main.d38596f5.js",
+    "static/js/787.b597a222.chunk.js": "/portfolio-2.0/static/js/787.b597a222.chunk.js",
+    "static/media/2.gif": "/portfolio-2.0/static/media/2.914c41ad8aed4197c66e.gif",
+    "static/media/0.gif": "/portfolio-2.0/static/media/0.eeeb9fa74c30c7095f7f.gif",
+    "static/media/1.gif": "/portfolio-2.0/static/media/1.e948bd2d127de4a2cd68.gif",
+    "static/media/profile.png": "/portfolio-2.0/static/media/profile.0c784ed7c15ceb00bc91.png",
+    "static/media/1.jpg": "/portfolio-2.0/static/media/1.800b32ffa1468b3e4711.jpg",
+    "static/media/americorps.jpg": "/portfolio-2.0/static/media/americorps.b8c0b8890ce7d411126e.jpg",
+    "static/media/0.jpg": "/portfolio-2.0/static/media/0.9fb57fd1b2a543e35886.jpg",
+    "static/media/school.jpg": "/portfolio-2.0/static/media/school.28a46ec0c9450e6f5fd9.jpg",
+    "static/media/boot_camp.jpg": "/portfolio-2.0/static/media/boot_camp.62523f0ebce55eef0f61.jpg",
+    "static/media/2.jpg": "/portfolio-2.0/static/media/2.01b6f154259605ff50a6.jpg",
+    "index.html": "/portfolio-2.0/index.html",
+    "main.56f8331c.css.map": "/portfolio-2.0/static/css/main.56f8331c.css.map",
+    "main.d38596f5.js.map": "/portfolio-2.0/static/js/main.d38596f5.js.map",
+    "787.b597a222.chunk.js.map": "/portfolio-2.0/static/js/787.b597a222.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56f8331c.css",
-    "static/js/main.798d2317.js"
+    "static/js/main.d38596f5.js"
   ]
 }
