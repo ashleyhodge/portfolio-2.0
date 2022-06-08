@@ -205,3 +205,6 @@ footer {
   border: white solid 2px;
   padding: 10px
 }
+.grid { 
+  display: grid; 
+  grid-template-columns: auto auto; }

@@ -31,7 +31,7 @@ function Projects() {
     const handleShow = () => setShow(true);
 
     return(
-    <div id={i} key={i}  >
+    <div id={i} key={i} className="grid" >
       <div className="d-flex justify-content-center mb-5" style={{marginBottom: '50px'}}>
         <img className="item" dataBackdrop="false" onClick={handleShow} src={require(`../Portfolio/project-images/${i}.jpg`)} />
       </div>
