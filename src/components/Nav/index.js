@@ -7,7 +7,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-sm fixed-top">
       <div className="container">
-        <Link to="/" style={{textDecoration: 'none'}}>
+        <Link to="/portfolio-2.0" style={{textDecoration: 'none'}}>
           <img src={logo}></img>
         </Link>
         <div>

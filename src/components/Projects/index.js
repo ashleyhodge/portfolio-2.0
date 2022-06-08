@@ -31,9 +31,9 @@ function Projects() {
     const handleShow = () => setShow(true);
 
     return(
-    <div id={i} key={i} className="grid" >
-      <div className="d-flex justify-content-center mb-5" style={{marginBottom: '50px'}}>
-        <img className="item" dataBackdrop="false" onClick={handleShow} src={require(`../Portfolio/project-images/${i}.jpg`)} />
+    <div id={i} key={i}  >
+      <div className="d-flex justify-content-center mb-5">
+        <img className="item" onClick={handleShow} src={require(`../Portfolio/project-images/${i}.jpg`)} />
       </div>
         
         <div className="container">
@@ -63,7 +63,7 @@ function Projects() {
     )
   }
   return(
-    <div className="grid">{projects.map(RenderCard)}</div>
+    <div style={{marginBottom: '100px'}}>{projects.map(RenderCard)}</div>
   )
 }
 
